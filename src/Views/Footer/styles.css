@@ -1,0 +1,79 @@
+.footerMain {
+  background-color: #232523;
+  padding: 40px 80px;
+}
+
+.footerAlign {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.titlesText {
+  color: #dceb05;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.divAlign {
+  width: 35%;
+}
+.divAlignPayments {
+  width: 30%;
+}
+
+ul {
+  color: #fff;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 300;
+}
+
+li {
+  margin: 10px 0px;
+}
+
+.imgLogo1{
+    width: 40%;
+    margin: 0px 5px;
+}
+
+.logosAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.divsWidth {
+    width: 33.33%;
+    margin: 20px 0px 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textDevelop {
+    color: #FFF;
+    font-weight: 300;
+    
+}
+
+.divider {
+    border-top: 1px solid #868c8f ;
+    margin: 60px 0px;
+
+}
+
+.imgMediosDePago {
+    width: 90%;
+    margin: 20px 5px;
+}
+
+.inputTypeFooter{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+

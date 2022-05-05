@@ -1,0 +1,71 @@
+.imgCover {
+  position: relative;
+  width: 100%;
+}
+
+.imgFull {
+  width: 100%;
+}
+
+.textMore {
+}
+
+.labelCover {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 30%;
+  color: #fff;
+  font-size: 75px;
+  padding-left: 100px;
+}
+
+.labelButton {
+  position: absolute;
+  top: 550px;
+  left: 0;
+  padding-left: 100px;
+}
+
+.carrousel {
+  margin: 20px 0px;
+}
+
+.arrayImage p {
+  color: #000;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoAppear {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  top: 30%;
+  left: 40%;
+display: none;
+  z-index: 2;
+  
+}
+
+.arrayImage:not(.logoAppear):hover {
+  filter: brightness(50%);
+}
+.arrayImage:hover > .logoAppear {
+  display: block;
+}
+.arrayImage:hover p {
+  color: #2c4666;
+}
+
+.imgArray {
+  object-fit: cover;
+  width: 95%;
+  height: 250px;
+  border-radius: 5px;
+  z-index: 1;
+}

@@ -1,0 +1,79 @@
+.flexProductosS4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.titleProductS4{
+    color: #FFF;
+    text-align: center;
+}
+
+.spacingPanels {
+    padding: 80px 0px;
+}
+
+.warpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 70px;
+    margin: 0px 8px;
+    background: #0470dd ;
+    display: inline-block;
+    color: #dceb05 ;
+    border-radius: 5px 5px 0px 0px;
+   
+  }
+  
+  .panels {
+    background: url(https://www.ortopediaplaza.com/wp-content/uploads/2021/04/silla-de-ruedas-manual.jpg) no-repeat left top;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100% 40%;
+    
+    
+  }
+  
+  .panel {
+    display: none;
+    animation: fadein 0.8s;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  .radio {
+    display: none;
+  }
+  
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel,
+  #three:checked ~ .panels #three-panel {
+    display: block;
+   
+  }
+  
+  #one:checked ~ .tabs #one-tab,
+  #two:checked ~ .tabs #two-tab,
+  #three:checked ~ .tabs #three-tab {
+    background: #0470dd ;
+    color: #dceb05 ;
+    transform: scale(1.15);
+    margin: 0px 20px;
+
+    
+    
+  }
